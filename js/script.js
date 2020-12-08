@@ -20,7 +20,7 @@ function getMoveName(moveId)
 let randomNumber = Math.floor(Math.random() * 3 + 1);
 
 let computerMove = getMoveName(randomNumber);
-
+/*
 function displayResult(computerMove, playerMove)
 {
     printMessage('Zagrałem ' + computerMove + 'a Ty ' + playerMove);
@@ -35,7 +35,7 @@ function displayResult(computerMove, playerMove)
     }
         else if( computerMove == 'kamień' && playerMove == 'nożyce')
     {
-        printMessage('Ty przegrywasz!');
+        printMessage('Tym razem przegrywasz!');
     }
         else if( computerMove == 'papier' && playerMove == 'papier')
     {
@@ -43,7 +43,7 @@ function displayResult(computerMove, playerMove)
     }
         else if( computerMove == 'papier' && playerMove == 'kamień')
     {
-        printMessage('Ty przegrywasz!');
+        printMessage('Tym razem przegrywasz!');
     }
         else if( computerMove == 'papier' && playerMove == 'nożyce')
     {
@@ -51,7 +51,7 @@ function displayResult(computerMove, playerMove)
     }
         else if( computerMove == 'nożyce' && playerMove == 'papier')
     {
-        printMessage('Ty przegrywasz!');
+        printMessage('Tym razem przegrywasz!');
     }
         else if( computerMove == 'nożyce' && playerMove == 'kamień')
     {
@@ -65,7 +65,7 @@ function displayResult(computerMove, playerMove)
     {
         printMessage('Brak roztrzygnięcia');
     }
-}
+}*/
 
 
 /*let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');

@@ -62,8 +62,11 @@ function displayResult(computerMove, playerMove)
         printMessage('Remis!');
     }
         else 
-      printMessage('Brak roztrzygnięcia');
+    {
+        printMessage('Brak roztrzygnięcia');
+    }
 }
+
 
 /*let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');
 

@@ -78,7 +78,7 @@ function playGame(playerMove)
 {
     clearMessages();
 
-    let randomNumber = Math.floor(Math.random() * 3 + 1);
+    let randomNumber = Math.floor(() * 3 + 1);
 
     let computerMove = getMoveName(randomNumber);
 
